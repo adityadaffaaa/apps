@@ -10,12 +10,7 @@
 
 html,
 body {
-  background: linear-gradient(
-    225deg,
-    #5d4a75 0%,
-    #554469 50%
-  );
-
+  background: linear-gradient(120deg, #ed7d4a 0%, #554469 50%);
   font-family: "RubikBI", "Rubikr";
   padding-bottom: 5vh;
 }
@@ -26,6 +21,42 @@ body {
   /* padding-top: 10vh;
   padding-bottom: 10vh; */
   /* overflow: scroll; */
+}
+
+ 
+
+#caption {
+  background-color: #d46a24;
+}
+
+#btnpilihfoto {
+  background-color: #FCD583;
+  padding: 16px 24px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+#btnpilihfoto:hover {
+  background-color: #d46a24;
+  padding: 16px 32px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px #554469;
+  border-radius: 8px;
+}
+
+#btntampilkan {
+  padding: 16px 24px;
+  background-color: #FCD583;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+#btntampilkan:hover {
+  background-color: #d46a24;
+  padding: 16px 32px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px #554469;
+  border-radius: 8px;
 }
 
 .boxguide {
@@ -194,8 +225,7 @@ body {
   margin-bottom: 10px;
   border-radius: 50%;
   background-color: #f7edd5;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
-    0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
 .image-canvas {

@@ -32,7 +32,7 @@ a:hover {
 }
 
 hr {
-  border-top: 2px solid #5d4b75;
+  border-top: 2px solid #D46A24;
   margin-top: 0.7em;
 }
 
@@ -63,16 +63,6 @@ hr {
   padding-left: 10px;
   padding-right: 10px;
 } */
-.fas{
-  color: #ED7D4A;
-}
-
-
-
-.titleemstyle{
-  color: #313131;
-}
-
 .jumbotronapps {
   border-radius: 7px;
   min-height: 150px;
@@ -106,7 +96,8 @@ hr {
 }
 
 .menubox {
-  box-shadow: 4px 4px 4px rgba(43, 46, 47, 0.2), -4px -4px 4px rgba(204, 204, 204, 0.103);
+  box-shadow: 4px 4px 4px rgba(43, 46, 47, 0.2),
+    -4px -4px 4px rgba(204, 204, 204, 0.103);
   border-radius: 15px;
   min-width: 80%;
   margin-left: -50px;
@@ -219,7 +210,8 @@ hr {
   margin-right: auto;
   padding: 10px;
   display: none;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
 .csbutton {
@@ -235,7 +227,8 @@ hr {
   color: white;
   padding-bottom: 15px;
   padding-top: 15px;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
 .appspad2 {
@@ -263,7 +256,8 @@ footer {
 
 .cardabout {
   width: 95vw;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -332,7 +326,9 @@ footer {
   /* background: linear-gradient(225deg,
       rgba(36, 142, 166, 1) 0%,
       rgba(37, 199, 217, 1) 50%); */
-  background: linear-gradient(225deg, #5b4f81 0%, #796f9b 50%);
+  background: linear-gradient(225deg,
+  #D46A24 0%,
+      #D46A24 50%);
   padding-top: 7vh;
   padding-bottom: 12vh;
   overflow: hidden;
@@ -351,7 +347,8 @@ footer {
 
   border-radius: 50%;
   background-color: #ffffff;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
 .profilecontent {
@@ -371,13 +368,14 @@ footer {
 .logoutbtn {
   text-align: center;
   padding: 15px 20px 15px 20px;
-  background-color: #d9f2f5;
+  background-color: #EE805B;
   border-radius: 30px;
   width: 175px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -30px;
-  box-shadow: 2px 2px 2px 0 rgba(60, 64, 67, 0.137), 0 2px 6px 2px rgba(144, 144, 144, 0.149);
+  box-shadow: 2px 2px 2px 0 rgba(60, 64, 67, 0.137),
+    0 2px 6px 2px rgba(144, 144, 144, 0.149);
   font-size: 1.1em;
   transition: all;
   transition-duration: 0.2s;
@@ -499,13 +497,14 @@ footer {
 .btnactive {
   text-align: center;
   padding: 10px 10px 10px 10px;
-  background-color: #5d4a75;
+  background-color: #D46A24;
   border-radius: 10px;
-  border-color: #4e3e61;
+  border-color: #D46A24;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
   font-size: 1.1em;
   transition: all;
   transition-duration: 0.2s;
@@ -527,7 +526,8 @@ footer {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
   font-size: 1.1em;
   transition: all;
   transition-duration: 0.2s;
@@ -573,7 +573,7 @@ footer {
   }
 
   50% {
-    background-color: #5d4a75;
+    background-color: #D46A24;
     color: white;
   }
 
@@ -635,7 +635,8 @@ footer {
 }
 
 .agendacard {
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
   border-radius: 10px;
 
   width: 100%;
@@ -699,6 +700,7 @@ footer {
   object-fit: cover;
   width: 100%;
   padding: 0;
+
 }
 
 @media (min-width: 976px) {
@@ -713,7 +715,8 @@ footer {
   overflow: hidden;
 
   border-radius: 7px;
-  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302), 0 2px 6px 2px rgba(60, 64, 67, 0.149);
+  box-shadow: 1px 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 2px 6px 2px rgba(60, 64, 67, 0.149);
 }
 
 .menuboxtwib h5 {
@@ -731,8 +734,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #380F14;
-  border-block-end: 2px solid #FCD583;
+  color: #D46A24;
+  border-block-end: 2px solid rgba(36, 142, 166, 0.637);
   padding: 12px 5px 12px 5px;
   height: 100%;
   position: relative;
@@ -761,7 +764,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #ed7d4a;
+  background-color: #D46A24;
   will-change: left, right;
   left: 0;
   right: 50%;

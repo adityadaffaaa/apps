@@ -32,7 +32,7 @@ a:hover {
 }
 
 hr {
-  border-top: 2px solid #5d4b75;
+  border-top: 2px solid #D46A24;
   margin-top: 0.7em;
 }
 
@@ -327,8 +327,8 @@ footer {
       rgba(36, 142, 166, 1) 0%,
       rgba(37, 199, 217, 1) 50%); */
   background: linear-gradient(225deg,
-      #5b4f81 0%,
-      #796f9b 50%);
+  #D46A24 0%,
+      #D46A24 50%);
   padding-top: 7vh;
   padding-bottom: 12vh;
   overflow: hidden;
@@ -368,7 +368,7 @@ footer {
 .logoutbtn {
   text-align: center;
   padding: 15px 20px 15px 20px;
-  background-color: #D9F2F5;
+  background-color: #EE805B;
   border-radius: 30px;
   width: 175px;
   margin-left: auto;
@@ -497,9 +497,9 @@ footer {
 .btnactive {
   text-align: center;
   padding: 10px 10px 10px 10px;
-  background-color: #5d4a75;
+  background-color: #D46A24;
   border-radius: 10px;
-  border-color: #4e3e61;
+  border-color: #D46A24;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -573,7 +573,7 @@ footer {
   }
 
   50% {
-    background-color: #5d4a75;
+    background-color: #D46A24;
     color: white;
   }
 
@@ -734,7 +734,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #5d4b75;
+  color: #D46A24;
   border-block-end: 2px solid rgba(36, 142, 166, 0.637);
   padding: 12px 5px 12px 5px;
   height: 100%;
@@ -764,7 +764,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 2px;
-  background-color: #5d4b75;
+  background-color: #D46A24;
   will-change: left, right;
   left: 0;
   right: 50%;

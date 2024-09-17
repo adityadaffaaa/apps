@@ -9,7 +9,7 @@ body{
     /* overflow: scroll; */
     /* height: 100vh; */
     /* background: #5d4a75; */
-    background-image: linear-gradient(170deg, #ee805b, #5d4a75);
+    background-image: linear-gradient(#FFE8B3, #EDEDED);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -17,6 +17,22 @@ body{
 /* section{
     height: 120vh;
 } */
+
+/* Button Profile EM UB 2022 */
+.btn-lg {
+
+    border: 2px solid #CF6228;
+    color: #CF6228;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn-lg:hover{
+    background-color: #CF6228;
+    color:  whitesmoke;
+  }
+/* Akhir Button Profile EM */
 
 span{
     position: absolute;

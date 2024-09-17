@@ -11,20 +11,20 @@
     <link rel="stylesheet" href="css/sweetalert.css" />
     <link rel="stylesheet" href="css/em2020twib.css" />
     <link rel="stylesheet" href="css/oprec3probes.css" />
-    <link href="../img/EMUB2020.png" rel="icon" />
+    <link href="../img/icon/logo em 2022.png" rel="icon" />
 </head>
 
 <body>
     <div class="container">
         <div class="twibtitle">
-            <h1 class="title font-weight-lighter">TWIBBON</h1>
-            <h3 class="title font-weight-lighter">Oprec 3 probes EM 2020</h3>
+            <h1 class="title font-weight-bold">TWIBBON</h1>
+            <h3 class="title font-weight-medium">Oprec 3 probes EM 2020</h3>
             <br />
         </div>
         <div class="row robofont">
             <div class="col-md-6">
                 <div class="uploader">
-                    <img src="img/LOGO_EM_2020.png" class="uploadlogo" alt="" />
+                    <img src="../img/icon/logo em 2022.png" height="115" class="uploadlogo" alt="" />
                     <canvas id="imageCanvas" class="image-canvas"></canvas>
 
                     <div class="profile-pic-wrap">
@@ -33,14 +33,14 @@
 
                     <div class="download-button">
                         <input type="file" name="file" id="imageLoader" class="inputfile" accept="image/*" />
-                        <label for="imageLoader" class="button">Pilih Foto</label>
-                        <a class="basic-result button">Tampilkan</a>
+                        <label id="btnpilihfoto" for="imageLoader" class="button">Pilih Foto</label>
+                        <a id="btntampilkan" class="basic-result button">Tampilkan</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
-                <div id="caption" class="boxcapt mt-3">
+                <div id="caption" class="boxcapt mt-auto">
                     <h5>
                         Caption Twibbon
                         <span class="h6 font-weight-light">(click to copy)</span>
@@ -77,7 +77,7 @@
 
       <a href="index.html">
         <p class="text-center mt-3 text-white font-weight-light robofont">
-          &#8592; back to EM - Twib
+          &#8592; Kembali
         </p>
       </a>
     </div>

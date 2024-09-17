@@ -14,14 +14,14 @@
   <body>
     <div class="container">
       <div class="twibtitle">
-        <h1 class="title font-weight-lighter">HBD</h1>
-        <h3 class="title font-weight-lighter">Anggota EM UB 2020</h3>
+        <h1 class="title font-weight-bold">HBD</h1>
+        <h3 class="title font-weight-medium">Anggota EM UB 2020</h3>
         <br />
       </div>
       <div class="row robofont">
         <div class="col-md-6">
           <div class="uploader">
-            <img src="img/LOGO_EM_2020.png" class="uploadlogo" alt="" />
+            <img src="../img/icon/logo em 2022.png" height="115" class="uploadlogo" alt="" />
             <canvas id="imageCanvas" class="image-canvas"></canvas>
 
             <div class="profile-pic-wrap">
@@ -30,23 +30,12 @@
 
             <div class="mb-3">
               <!-- <p class="text-center text-black">Masukkan Nama Kamu:</p> -->
-              <input
-                id="twibname"
-                type="text"
-                placeholder="Nama dan Kementerian"
-                maxlength="50"
-              />
+              <input id="twibname" type="text" placeholder="Nama dan Kementerian" maxlength="50" />
             </div>
             <div class="download-button">
-              <input
-                type="file"
-                name="file"
-                id="imageLoader"
-                class="inputfile"
-                accept="image/*"
-              />
-              <label for="imageLoader" class="button">Pilih Foto</label>
-              <a class="basic-result button">Tampilkan</a>
+              <input type="file" name="file" id="imageLoader" class="inputfile" accept="image/*" />
+              <label id="btnpilihfoto" for="imageLoader" class="button">Pilih Foto</label>
+              <a id="btntampilkan" class="basic-result button">Tampilkan</a>
             </div>
           </div>
         </div>
@@ -72,9 +61,7 @@
       </div>
 
       <a href="index.html">
-        <p class="text-center mt-3 text-white font-weight-light robofont">
-          &#8592; back to EM - Twib
-        </p>
+        <p class="text-center mt-3 text-white font-weight-light robofont">&#8592; Kembali</p>
       </a>
     </div>
     <script src="../js/jquery.min.js"></script>

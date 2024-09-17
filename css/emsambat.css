@@ -187,7 +187,7 @@
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
-	background-color: #5d4b75;
+	background-color: #D46A24;
 	box-shadow: 1px 1px 2px rgba(131, 131, 131, 0.521);
 	z-index: 10;
 	border: none;
@@ -257,7 +257,7 @@
 .sambatcard input:focus,
 .sambatcard select:focus {
 	outline: none;
-	border-bottom: 1px solid #5d4b75;
+	border-bottom: 1px solid #D46A24;
 }
 
 .sambatcard select {
@@ -306,7 +306,7 @@
 	margin: 0 10px auto auto;
 	background-color: transparent;
 	border: none;
-	color: #5d4b75;
+	color: #D46A24;
 }
 
 #fileupload {
@@ -322,7 +322,7 @@
 .sambatcategory {
 	font-size: 0.6em;
 	padding: 3px 5px 3px 5px;
-	background-color: #5d4b75;
+	background-color: #D46A24;
 	color: white;
 	border-radius: 5px;
 }
@@ -340,7 +340,7 @@
 	text-align: center;
 	width: 70px;
 	padding: 0px 0px 0px 0px;
-	border: 1px solid #5d4b75;
+	border: 1px solid #D46A24;
 	border-radius: 50px;
 	transition: all 0.2s ease-in-out;
 }
@@ -353,7 +353,7 @@
 .circle {
 	width: 8px;
 	height: 8px;
-	background-color: #5d4b75;
+	background-color: #D46A24;
 	border-radius: 50%;
 	margin: 5px;
 }
@@ -373,7 +373,7 @@
 @keyframes bouncing {
 	0% {
 		transform: translateY(0px);
-		background-color: #5d4b75;
+		background-color: #D46A24;
 	}
 
 	25% {
@@ -383,17 +383,17 @@
 
 	50% {
 		transform: translateY(0px);
-		background-color: #5d4b75;
+		background-color: #D46A24;
 	}
 
 	75% {
 		transform: translateY(0px);
-		background-color: #5d4b75;
+		background-color: #D46A24;
 	}
 
 	100% {
 		transform: translateY(0px);
-		background-color: #5d4b75;
+		background-color: #D46A24;
 	}
 }
 
